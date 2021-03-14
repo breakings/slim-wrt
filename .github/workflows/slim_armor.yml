@@ -13,8 +13,8 @@ jobs:
   build_armor:
     runs-on: ubuntu-20.04
     strategy:
-      matrix: official
-        slim_profile: ['slim', 'r1cl', 'official']
+      matrix: 
+        slim_profile: official
 
     steps:
     - name: Start job for profiles
