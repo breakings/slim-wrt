@@ -5,6 +5,7 @@ SLIM_CFG_ARCH="64"
 
 SLIM_CFG_EXCLUDE_PATCH=(\
                         0002-upnp \
+                        0001-fullcone-nat \
                         )
 
 echo ${SLIM_CFG_EXCLUDE_PATCH[*]}
