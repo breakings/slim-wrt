@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SLIM_CFG_TARGET="x86"
+SLIM_CFG_TARGET="armvirt"
 SLIM_CFG_ARCH="64"
 
 SLIM_CFG_EXCLUDE_PATCH=(\
